@@ -19,3 +19,18 @@
 **Soft-skills**
 * Excellent communication and social skills
 * Self-education. Interest in new knowledge. Curiosity
+
+**Experience**
+* * * *
+* [HTMLAcademy](https://htmlacademy.ru)
+* Tuturial by Shay Hou
+
+**Education**
+* * * *
+* Gomel Medical College
+* Gomel State University after Francisk Skorina, faculty of biology
+
+**language**
+* * * *
+* Self-study English (A1+)
+* Self-study Turkish (reading and translating with a dictionary)
