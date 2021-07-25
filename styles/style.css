@@ -20,9 +20,10 @@ time, mark, audio, video {
    
 .container {
   max-width: 960px;
-  height: 868px;
   margin: 0 auto;
   border: 2px solid #5834C2;
+  border-top: none;
+  border-bottom: none;
 }
 
 .section-left {
@@ -38,7 +39,6 @@ time, mark, audio, video {
   width: 70%;
   height: 100%;
   vertical-align: top;
-  background-color: #9dc5bc;
 }
 
 .about-me,
