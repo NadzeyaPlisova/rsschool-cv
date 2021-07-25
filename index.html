@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>My CV</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="main-title">Nice to meet you!</h1>
+      </header>
+      <main>
+        <section class="section-left">
+          <div class="user-inform">
+            <img class="user-avatar" src="assets/img/avatar.jpg" alt="avatar view of the cosmos" width="210" height="210">
+            <h3 class="user-title">Nadzeya<br>Plisova</h3>
+            <p class="user-addres">Gomel, Belarus</p>
+          </div>
+          <div class="user-contact">
+            <p class="us-contact">Contact details:</p>
+            <ul>
+              <li>e-mail:naima707@yandex.ru</li>
+              <li>+375291429208</li>
+            </ul>
+          </div>
+        </section><!--
+     --><section class="section-right">
+          <h2 hidden>cv</h2>
+          <article class="about-me">
+            <h2 class="title">About me</h2>
+              <p class="basic-text">I want to improve my knowledge in programming and become a good specialist, because I like it!</p>
+          </article>
+          <article class="aducation">
+            <h2 class="title">Aducation and experience</h2>
+              <ul class="basic-text">
+                <li>GSM College</li> 
+                <li>Gomel State University after Francisk Skorina, faculty of biology</li>
+                <li><a href="https://htmlacademy.ru" target="_blank">HTMLAcademy</a></li>
+                <li><a href="https://webref.ru/layout/learn-html-css" target="_blank">Tuturial by Shay Hou</a></li>
+              </ul>
+          </article>
+          <article class="skills">
+            <h2 class="title">Skills</h2>
+              <ul class="basic-text">
+                <li>HTML5 basic</li>
+                <li>CSS3 basic</li>
+                <li>Experience working as HR</li>
+                <li>Excellent communication and social skills</li>
+                <li>Self-education. Interest in new knowledge. Curiosity</li>
+                <li>languages: Self-study English (A1+), Self-study Turkish (reading and translating with a dictionary)</li>
+             </ul>
+          </article>
+          <article class="example-code">
+            <h2 class="title">Example of my code</h2>
+            <pre class="code">
+              <code class="text-code">
+                let users = [
+                  {id: 1, name: "Ира"},
+                  {id: 2, name: "Соня"},
+                  {id: 3, name: "Настя"}
+                ];
+                let user = users.find(item => item.id == 1);
+                alert(user.name);
+              </code>
+            </pre>
+          </article>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-container">
+          <a class="logo" href="https://rs.school/js/" target="_blank"><img src="assets/img/rs_school_js.svg" alt="logo by rs_school" width="60" height="25"></a>
+          <a class="copyright" href="https://github.com/NadzeyaPlisova/rsschool-cv" target="_blank"><span class="copyright-text">&copy;Nadzeya P. 2021</span></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

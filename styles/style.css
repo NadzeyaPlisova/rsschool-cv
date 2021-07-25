@@ -1,0 +1,158 @@
+/*reset CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+}
+
+/* My styles */
+   
+.container {
+  max-width: 960px;
+  height: 868px;
+  margin: 0 auto;
+  border: 2px solid #5834C2;
+}
+
+.section-left {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #d3e2ee;
+}
+
+.section-right {
+  display: inline-block;
+  width: 70%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #9dc5bc;
+}
+
+.about-me,
+.skills,
+.aducation,
+.example-code {
+  width: 70%;
+  margin: 30px;
+}
+
+.main-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: bolder;
+  text-align: center;
+  color: #391be2;
+  text-transform: uppercase;
+  background-color: #adf3ed;
+}
+
+.title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #a447de;
+  text-transform: uppercase;
+}
+
+.basic-text {
+  margin-left: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #391be2;
+}
+
+.code {
+  border: 1px solid #391be2;
+}
+
+.text-code {
+  color: #391be2;
+}
+
+.user-inform {
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+.user-avatar {
+  display: block;
+  margin:auto;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.user-addres {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+  text-align: center;
+  color: #391be2;
+}
+
+.user-title {
+  margin: 25px 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bolder;
+  text-align: center;
+  color: #391be2;
+  text-transform: uppercase;
+  background-color: #adf3ed;
+}
+
+.user-contact {
+  margin-top: 314px;
+  margin-left: 30px;
+  padding-bottom: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+  color: #391be2;
+}
+
+.us-contact {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #5834C2;
+}
+
+.footer-container {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.copyright span,
+.logo img {
+  vertical-align: middle;
+}
+
+.copyright-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #000000;
+}
